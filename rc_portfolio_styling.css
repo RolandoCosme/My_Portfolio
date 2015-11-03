@@ -1,0 +1,40 @@
+.head-table {
+				border: 0;
+				width: 100%;
+				height: 40px;
+				background-color: #747474;
+}
+
+.nav-table {
+			border: 0;
+			width: 100%;
+			background-color: #dfeef3;
+}
+
+.nav-table td {
+				color: #3f3f3f;
+				text-align: center;
+				text-decoration: none;
+}
+
+#myname { 
+			color: #fbfbf9;
+			font-family: 'Raleway', sans-serif;
+			text-align: center;
+}
+
+#mytitle {
+			color: #fbfbf9;
+			font-family: 'Raleway', sans-serif;
+			text-align: center;
+}
+
+#address { 
+			color: #fbfbf9;
+			text-align: center;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+}
+
