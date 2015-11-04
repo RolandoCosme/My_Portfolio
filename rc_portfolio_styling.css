@@ -75,4 +75,9 @@ table {
 				height: 50px;
 				background-color: none;				
 }
-
+a:link{
+		color: #fbfbf9;
+}
+a:visited{
+	color:  black;
+}
