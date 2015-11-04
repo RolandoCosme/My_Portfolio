@@ -1,53 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<body style="background-color:#d1d2c2">
+	<body>
 	<meta Author:Rolando Cosme>
+	<link rel="stylesheet" type="text/css" href="rc_portfolio_styling.css">
 	<title>My Portfolio</title>
 </head>
-	<table border="0" style="width:100%; height:40px" bgcolor="747474">
+	<table class="head-table">
 		<tr>
 			<td>
-				<center><h1 style="color:#fbfbf9;">Rolando Cosme's Portfolio</h1></center>
-				<center><h2 style="color:#fbfbf9;">Web and Application Designer</h2></center>
-				<center><address style="color:#fbfbf9;">Rolando.Cosme@Gmail.com - 43 Liberty ave. Belleville, NJ 07109 - Mobile (973) 602-7575</address></center>
+				<h1>Rolando Cosme's Portfolio</h1>
+				<h2 id="mytitle">Web and Application Designer</h2>
+				<address id="address">Rolando.Cosme@Gmail.com - 43 Liberty ave. Belleville, NJ 07109 - Mobile (973) 602-7575</address>
 			</td>
 		</tr>
 <body>
 	<p>
-		<table border="0" style="width:100%" bgcolor="#dfeef3">
+		<table class="nav-table">
 			<tr>
-				<td><a href="RC_Portfolio_main.html"><center><font color="#3f3f3f">My Credentials</font></center></a></td>
-				<td><a href="RC_Portfolio_Experience.html"><center><font color="#3f3f3f">Work Experience</font></center></a></td>
-				<td><a href="RC_Portfolio_Blog.html"><center><font color="#3f3f3f">Blog</font></center><a/></td>
-				<td><a href="RC_Portfolio_Weblinks.html"><center><font color="#3f3f3f">Find Me Online</font></center><a/></td>
-				<td><a href="RC_Portfolio_Contact.html"><center><font color="#3f3f3f">Contact Me</center><a/></td>
+				<td><a href="rc_portfolio_main.html">My Credentials</a></td>
+				<td><a href="rc_portfolio_experience.html">Work Experience</a></td>
+				<td><a href="rc_portfolio_blog.html">Blog<a/></td>
+				<td><a href="rc_portfolio_weblinks.html">Find Me Online<a/></td>
+				<td><a href="rc_portfolio_contact.html">Contact Me<a/></td>
 			</tr>
 		</table>
 	</p>
 
 	<p>
 		<h2>Contact Me:</h2>
-				<p>
-					<form>
-			Full Name:<br>
-			<input type="text" name="fullname" style="width:200px;">
-			<br>
-			Your Email: <br>
-			<input type="email" name="email_address" style="width:200px;">
-			<br>
-			Phone Number:<br>
-			<input type="tel" name="phone_number" style="width:200px;">
-			<br>
-			Comments:<br>
-  			<textarea name='comments' style="height:200px;width:400px;"></textarea>
-  			<br>
-  			<input type="submit" value="Submit">
-  			<br>
-
-		</form>
-			
 	</p>
+				<div>
+					<form>
+							Full Name:
+							<br>
+							<input type="text" name="fullname" style="width:200px;">
+							<br>
+							Your Email: 
+							<br>
+							<input type="email" name="email_address" style="width:200px;">
+							<br>
+							Phone Number:
+							<br>
+							<input type="tel" name="phone_number" style="width:200px;">
+							<br>
+							Comments:
+							<br>
+				  			<textarea name='comments' style="height:200px;width:400px;"></textarea>
+				  			<br>
+				  			<input type="submit" value="Submit">
+				  			<br>
+
+					</form>
+			</div>
+	
 
 
 </body>

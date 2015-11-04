@@ -43,10 +43,20 @@ h2 {
 	font-family: 'Droid Sans', sans-serif;
 }
 
+h3 {
+	font-family: 'Raleway', sans-serif;
+
+}
+
 table {
 			border: 0;
 			width: 70%;
 			background-color: #dfeef3;
 			text-decoration: none;
 			font-family: 'Droid Sans', sans-serif;
+}
+
+.blog {
+		font-family: 'Indie Flower', cursive;
+		color:blue;
 }
