@@ -1,1 +1,1 @@
-<?php require('RC_Portfolio_main.html'); ?>
+<?php require('rc_portfolio_main.html'); ?>
