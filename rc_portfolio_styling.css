@@ -22,7 +22,7 @@ body {
 				text-decoration: none;
 }
 
-#myname { 
+h1 { 
 			color: #fbfbf9;
 			font-family: 'Raleway', sans-serif;
 			text-align: center;
@@ -40,6 +40,13 @@ body {
 }
 
 h2 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Droid Sans', sans-serif;
 }
 
+table {
+			border: 0;
+			width: 70%;
+			background-color: #dfeef3;
+			text-decoration: none;
+			font-family: 'Droid Sans', sans-serif;
+}
