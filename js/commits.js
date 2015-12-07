@@ -6,9 +6,9 @@ $(document).ready(function() {
       type: "GET",
       url: $(this).attr("href"),
       success: function(commits) {
-        $("tbody").empty();
+        $(".commit-table").empty();
         for(var i = 0; i < commits.length; i++) {
-          $("tbody").append(buildTableRow(commits[i]));
+          $(".commit-table").append(buildTableRow(commits[i]));
         }
       }
     })
@@ -18,7 +18,6 @@ $(document).ready(function() {
     var messageTd = $("<td>").append(commitData.commit.message);
     var dateTd = $("<td>").append(commitData.commit.author.date);
     var authorTd = $("<td>").append(commitData.commit.committer.name);
-
 
     return $("<tr>").append(dateTd)
       .append(messageTd)
